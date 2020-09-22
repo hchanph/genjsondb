@@ -1,0 +1,5 @@
+{
+    "id": { "chance": "guid"},
+    "name": { "faker": "name.firstName" },
+    "email": { "faker": "internet.email"}
+}

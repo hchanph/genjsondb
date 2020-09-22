@@ -1,0 +1,27 @@
+{
+  "name": "genjsondb",
+  "version": "1.0.0",
+  "description": "generate json database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "genjsondb": "./index.js"
+  },
+  "keywords": [
+    "generate",
+    "json",
+    "database"
+  ],
+  "author": "henry chan",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "mocker-data-generator": "^2.9.0",
+    "yargs": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  }
+}
