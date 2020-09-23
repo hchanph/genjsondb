@@ -2,7 +2,7 @@
 
 genjsondb is a cli tool that generates random data,
 genjsondb uses (**mocker-data-generator, Faker, Chance, 
-RanExpJs, typescript-starter**) to accomplish this feat.
+RanExpJs, typescript-starter, yargs**) to accomplish this feat.
 
 
 This is the random data generated:
@@ -74,7 +74,7 @@ genjsondb --nr 10 --sc schema name --sf filename > db.json
 * RanExpJs: [https://github.com/fent/randexp.js]
 * typescript-starter: [https://github.com/bitjson/typescript-starter]
 * mocker-data-generator: [https://github.com/danibram/mocker-data-generator]
-
+* yargs: [https://github.com/yargs/yargs]
 
 ## License
 
