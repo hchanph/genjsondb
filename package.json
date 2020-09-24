@@ -1,6 +1,6 @@
 {
   "name": "genjsondb",
-  "version": "1.0.1",
+  "version": "1.0.1.2",
   "description": "generate json database",
   "main": "index.js",
   "scripts": {
