@@ -5,7 +5,7 @@ RanExpJs, typescript-starter, yargs**) to accomplish this feat.
 
 _This is the generated data._
 
-```json
+```
 {
   "user": [
     {
@@ -48,7 +48,7 @@ _This is the generated data._
 
 # Sample schema
 
-```json
+```
 {
     "id": "chance": "guid",
     "field name 1": "faker": "name.firstName",
