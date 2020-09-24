@@ -1,13 +1,11 @@
 # genjsondb
 
-genjsondb is a cli tool that generates random data,
-genjsondb uses (**mocker-data-generator, Faker, Chance, 
+genjsondb is a cli tool that generates random data, genjsondb uses (**mocker-data-generator, Faker, Chance, 
 RanExpJs, typescript-starter, yargs**) to accomplish this feat.
 
+_This is the generated data._
 
-This is the random data generated:
-
-```
+```json
 {
   "user": [
     {
@@ -28,46 +26,38 @@ This is the random data generated:
     ...
 ```
 
-
-## Installation
-
-npm install -g genjsond
-
-
-## Usage
-
-genjsond --nr < no. records > --sn < schema-name > --sf < schema-filename >
-
-* nr - number of records to generate
-* sn - name of schema
-* sf - schema filename read
-* fs - format output to string
-
-
-genjsondb --nr 10 --sc schema name --sf filename
-
---or--
-
-genjsondb --nr 10 --sc schema name  --sf filename --fs
-
---or--
-
-genjsondb --nr 10 --sc schema name --sf filename > db.json
-
-
-## Sample schema
+# Installation
 
 ```
+   npm install -g genjsond
+```
+
+# Usage
+
+```
+   genjsondb --nr 5 --sn user --sf sample.json
+
+   --or--
+
+   genjsondb --nr 5 --sn user --sf sample.json --fs
+
+   --or--
+
+   genjsondb --nr 5 --sn user --sf sample.json > db.json
+```
+
+# Sample schema
+
+```json
 {
     "id": "chance": "guid",
     "field name 1": "faker": "name.firstName",
-    "field name 2: "faker": "internet.email",
+    "field name 2": "faker": "internet.email",
     ...
 }
-
 ```
 
-## Credits
+# Credits
 
 * Faker: [https://github.com/Marak/faker.js]
 * Chance: [https://github.com/victorquinn/chancejs]
@@ -76,6 +66,6 @@ genjsondb --nr 10 --sc schema name --sf filename > db.json
 * mocker-data-generator: [https://github.com/danibram/mocker-data-generator]
 * yargs: [https://github.com/yargs/yargs]
 
-## License
+# License
 
 Licensed Under MIT license, 2020
